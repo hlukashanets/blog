@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; // =10px
+}
+
+body {
+  color: $dark-grey;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}

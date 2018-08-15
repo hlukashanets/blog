@@ -1,0 +1,42 @@
+.filters {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  margin: $m-size 0 $m-size 0;
+  flex-wrap: wrap;
+
+  @media(min-width: $desktop-breakpoint)  {
+    margin: $m-size 0 $l-size 0;
+  }
+}
+
+.filters__item__input {
+  margin-bottom: $s-size;
+  width: 100%;
+
+  @media(min-width: $desktop-breakpoint)  {
+    margin: 0 $s-size 0 0;
+    width: 20rem;
+  }
+
+  &.input-sort {
+    width: auto;
+  }
+}
+
+.filters__item__button {
+  @extend .filters__item__input;
+  width: 10rem;
+  margin-left: auto;
+  align-self: center;
+
+  @media(min-width: $desktop-breakpoint)  {
+    width: auto;
+    margin: 0 0 0 auto;
+    align-self: flex-start;
+  }
+}
+
+label {
+  margin-right: .7rem;
+}

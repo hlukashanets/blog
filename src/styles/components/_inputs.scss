@@ -1,0 +1,25 @@
+.text-input {
+  border: 1px solid #cacccd;
+  height: 50px;
+  font-size: $font-size-large;
+  font-weight: 300;
+  padding: $s-size;
+  border-radius: .4rem;
+  width: 100%;
+}
+
+.select {
+  @extend .text-input;
+  width: auto;
+}
+
+.textarea {
+  @extend .text-input;
+  height: 20rem;
+}
+
+.filters__item label {
+  margin-right: .5rem;
+  font-size: $font-size-large;
+  color: $grey;
+}

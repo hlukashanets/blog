@@ -1,0 +1,53 @@
+.button {
+  background-color: $off-blue;
+  border: none;
+  border-radius: .4rem;
+  color: $off-white;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  text-decoration: none;
+  transition: all .2s ease;
+  &:hover {
+    filter: brightness(85%);
+  }
+  &.button--back {
+    position: relative;
+    top: -5.76rem;
+    left: 12rem;
+  }
+}
+
+.button--login:active {
+  transform: translateY(-1px);
+  box-shadow: 0 .5rem 1rem rgba($box-shadow, 0.2);
+}
+
+.button.button--login {
+  background-color: $off-white;
+  color: $grey;
+  border-radius: .25rem;
+  transition: all .2s ease;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 1rem 2rem rgba($box-shadow, 0.2);
+    filter: none;
+  }
+}
+
+.button.button--logout {
+  background-color: $dark-blue;
+}
+
+.button--remove {
+  background-color: $grey;
+  position: relative;
+  top: -9.94rem;
+  left: 22.7rem;
+}
+
+.button-save {
+  width: 11rem;
+}

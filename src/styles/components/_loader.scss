@@ -1,0 +1,17 @@
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loader__image {
+  height: 11rem;
+  width: 11rem;
+}
+
+.loader__note-list {
+  height: 50vh;
+  width: 100vw;
+}
