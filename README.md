@@ -54,8 +54,8 @@ Using technologies:
 Install <a href="https://nodejs.org" target="_blank">Node.js</a>
 ``` code
 npm install -g yarn
-git clone https://github.com/hlukashanets/blog-app.git
-cd blog-app
+git clone https://github.com/hlukashanets/blog.git
+cd blog
 yarn install
 ```
 ## Running dev server
