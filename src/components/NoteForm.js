@@ -61,14 +61,14 @@ class NoteForm extends React.Component {
             onChange={this.onBodyChange}
           />
           <div>
-            <button className='button'>Save Post</button>
+            <button className='button button--save'>Save</button>
           </div>
         </form>
         <button className='button button--back' onClick={() => {
           this.handleChangeWarningMessage()
           this.handleReloadNotes().then(history.push('/dashboard'))
         }}>
-            Go Back
+            Cancel
         </button>
       </div>
     )

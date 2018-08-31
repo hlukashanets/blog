@@ -22,7 +22,7 @@ const EditNotePage = ({ id, note = {}, startRemoveNote, startEditNote }) => {
         <button className='button button--remove'
           onClick={handleOnClick}
         >
-          Remove Post
+          Remove
         </button>
       </div>
     </div>

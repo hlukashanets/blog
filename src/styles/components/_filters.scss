@@ -21,6 +21,10 @@
 
   &.input-sort {
     width: auto;
+
+    @media(max-width: $mobile-breakpoint) {
+      margin-right: .9rem;
+    }
   }
 }
 
@@ -30,10 +34,16 @@
   margin-left: auto;
   align-self: center;
 
+
+
   @media(min-width: $desktop-breakpoint)  {
     width: auto;
     margin: 0 0 0 auto;
     align-self: flex-start;
+  }
+
+  @media(max-width: $mobile-breakpoint) {
+    margin-left: 0;
   }
 }
 

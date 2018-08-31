@@ -15,9 +15,22 @@
   }
   &.button--back {
     position: relative;
-    top: -5.76rem;
-    left: 12rem;
+    top: -5.76rem; //5.76
+    left: 7.5rem;
+
+    @media(max-width: $mobile-breakpoint-small) {
+      top: -.5rem;
+      left: 0;
+      width: 100%;
+    }
   }
+
+  &.button--save {
+    @media(max-width: $mobile-breakpoint-small) {
+      width: 100%;
+    }
+  }
+
 }
 
 .button--login:active {
@@ -44,8 +57,16 @@
 .button--remove {
   background-color: $grey;
   position: relative;
-  top: -9.94rem;
-  left: 22.7rem;
+  top: -9.92rem;
+  left: 16.5rem;
+
+  @media(max-width: $mobile-breakpoint-small) {
+    position: relative;
+    top: .5rem;
+    left: 0;
+    width: 100%;
+    margin-bottom: $s-size;
+  }
 }
 
 .button-save {
